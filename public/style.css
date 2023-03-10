@@ -23,7 +23,7 @@ main > div {
 }
 
 h1 {
-  color: var(--groen);
+  color: var(--blauw);
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
@@ -31,6 +31,7 @@ h1 {
   padding: 1.2em auto;
   width: 100%;
   margin-top: -5em;
+  padding-bottom: 0.5em;
 }
 
 h2 {
@@ -40,6 +41,23 @@ h2 {
   font-size: 2rem;
   font-weight: 600;
   width: 100%;
+  padding-top: 0.1em;
+}
+
+.arrow-left {
+  padding-right: 0.5em;
+  opacity: 20%;
+}
+
+.arrow-right {
+  padding-left: 0.5em;
+  opacity: 20%;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+  opacity: 100%;
+  cursor: pointer;
 }
 
 h3 {
@@ -545,10 +563,6 @@ dialog::backdrop {
     color: #152a42;
     position: relative;
     display: block;
-  }
-
-  h1 {
-    padding: 20px;
   }
 }
 
