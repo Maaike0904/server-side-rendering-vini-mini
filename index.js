@@ -12,29 +12,59 @@ app.use(express.static("public"));
 
 // Maak een route voor de index
 app.get("/", (request, response) => {
-  let categorieUrl = url + "/categories";
+  let categoriesUrl = url + "/categories";
 
-  fetchJson(categorieUrl).then((data) => {
+  fetchJson(categoriesUrl).then((data) => {
     response.render("index", data);
   });
 });
 
-// app.get("/categorie", (request, response) => {
-//   let slug = request.query.sprintSlug || "your-tribe";
-//   let sprintUrl = url + "/sprint/" + slug;
-//   fetchJson(sprintUrl).then((data) => {
-//     // console.log(data)
-//     response.render("sprint", data);
-//   });
-// });
+// dit plak je aan de basis url van de api, /producten
+app.get("/Ei", async (request, response) => {
+  let productenUrl = url + "/producten";
 
-// app.get("/over", (request, response) => {
-//   response.render("over");
-// });
+  await fetchJson(productenUrl).then((data) => {
+    response.render("Ei", data);
+  });
+});
 
-// app.get("/contact", (request, response) => {
-//   response.render("contact");
-// });
+// route naar pinda.ejs
+app.get("/Pinda", async (request, response) => {
+  let productenUrl = url + "/producten";
+
+  await fetchJson(productenUrl).then((data) => {
+    response.render("Pinda", data);
+  });
+});
+
+// pagina's zonder inhoud van andere allergenen
+app.get("/Amandel", (request, response) => {
+  response.render("Amandel");
+});
+
+app.get("/Schelp", (request, response) => {
+  response.render("Schelp");
+});
+
+app.get("/Soja", (request, response) => {
+  response.render("Soja");
+});
+
+app.get("/Vis", (request, response) => {
+  response.render("Vis");
+});
+
+app.get("/Hazelnoot", (request, response) => {
+  response.render("Hazelnoot");
+});
+
+app.get("/Walnoot", (request, response) => {
+  response.render("Walnoot");
+});
+
+app.get("/Cashewnoot", (request, response) => {
+  response.render("Cashewnoot");
+});
 
 // Stel het poortnummer in en start express
 app.set("port", process.env.PORT || 8000);
