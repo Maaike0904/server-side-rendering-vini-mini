@@ -66,7 +66,8 @@ Bij deze opdracht heb gewerkt met:
 Je kunt de website gebruiken om het stappenplan van je mini te bekijken voor het geven van supplementen.
 
 ## Bronnen
-https://api.vinimini.fdnd.nl/api/v1/
+* https://api.vinimini.fdnd.nl/api/v1/
+* Groepsgenoten
 
 ## Licentie
 
