@@ -5,12 +5,12 @@
 Ik heb aan de volgende user story gewerkt:
 #12 Als ouder wil ik in mijn agenda het stappenplan kunnen bekijken, zodat ik weet op welke dag ik een supplement voor een allergie moet geven.
 
-## Inhoudsopgave
+## 🚀 Inhoudsopgave
 
   * 📝 [Beschrijving](#beschrijving)
   * 👓 [Kenmerken](#kenmerken)
   * ☑️ [Checklist](#Checklist)
-  * 🚀 [Installatie](#installatie)
+  * 🎯 [Installatie](#installatie)
   * 👩🏽‍💻 [Gebruik](#gebruik)
   * 📥 [Bronnen](#bronnen)
   * 💯 [Licentie](#licentie)
@@ -51,7 +51,7 @@ Bij deze opdracht heb gewerkt met:
 * Favicon toevoegen
 * Maand door kunnen klikken
 
-## 🚀 Installatie
+## 🎯 Installatie
 * Node installatie - Via Nodejs.org heb ik eerst Node js gedownload.
 * NPM installatie
 
@@ -70,5 +70,5 @@ Je kunt de website gebruiken om het stappenplan van je mini te bekijken voor het
 * Groepsgenoten
 
 ## 💯 Licentie
-GNU GPL V3
+![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 This project is licensed under the terms of the [MIT license](./LICENSE).
