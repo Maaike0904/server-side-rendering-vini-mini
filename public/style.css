@@ -116,6 +116,11 @@ ul {
   z-index: 1;
 }
 
+li:hover {
+  color: var(--groen);
+  transition: 0.5s;
+}
+
 .icon {
   padding-right: 0.5em;
   margin-bottom: -2px;
@@ -129,40 +134,6 @@ ul {
 .arrow {
   padding-left: 1em;
   margin-bottom: -4px;
-}
-
-button {
-  appearance: auto;
-  writing-mode: horizontal-tb !important;
-  /* font-style: ;
-    font-variant-ligatures:;
-    font-variant-caps:;
-    font-variant-numeric: ;
-    font-variant-east-asian: ;
-    font-weight: ;
-    font-stretch: ;
-    font-size: ;
-    font-family: ; */
-  text-rendering: auto;
-  color: buttontext;
-  letter-spacing: normal;
-  word-spacing: normal;
-  line-height: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  display: inline-block;
-  text-align: center;
-  align-items: flex-start;
-  cursor: default;
-  box-sizing: border-box;
-  background-color: buttonface;
-  margin: 0em;
-  padding: 1px 6px;
-  border-width: 2px;
-  border-style: outset;
-  border-color: buttonborder;
-  border-image: initial;
 }
 
 div {
@@ -183,8 +154,9 @@ div {
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-  position: relative;
+  position: absolute;
   display: inline-block;
+  align-content: right;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -222,43 +194,6 @@ div {
   background-color: var(--groen);
 }
 
-/* Button plusje */
-/* POP-UP */
-#opendialog-button {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-color: var(--pinda);
-  left: 250px;
-  top: 20px;
-  margin-left: 1em;
-  color: white;
-  /* height: 30px;
-    width: 60px; */
-  align-items: center;
-  cursor: pointer;
-}
-
-.kies-allergie-button {
-  /* height: 30px;
-    width: 60px; */
-  align-items: center;
-}
-
-.modal {
-  margin-inline: auto;
-  margin-top: 10rem;
-  border: none;
-  padding: 15px;
-  background-color: rgba(244, 235, 52, 0.5);
-  border-radius: 20px;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  width: 220px;
-  padding: 20px;
-  padding-inline: 30px;
-  line-height: 30px;
-}
 /* Checklist */
 
 .checklist-h2 {
@@ -313,10 +248,10 @@ fieldset {
 }
 
 button {
-  background-color: var(--geel);
+  background-color: var(--pinda);
   border: none;
   text-align: center;
-  color: var(--blauw);
+  color: var(--lichtgroen);
   font-family: "Montserrat", sans-serif;
   font-size: 0.88rem;
   font-weight: 400;
@@ -325,10 +260,11 @@ button {
   padding: 10px;
   margin-top: 10px;
   border-radius: 0.5em;
+  cursor: pointer;
 }
 
 button:hover {
-  background-color: var(--groen);
+  background-color: #04504b;
   transition: 0.5s;
   color: white;
 }
@@ -358,17 +294,15 @@ label {
   background: var(--lichtgroen);
   border: none;
   border-color: var(--geel);
-  width: 405px;
+  width: 400px;
 }
 
-/* Logboek */
-textarea {
+/* Dagboek invoerveldje */
+#dagboek {
+  height: 10em;
+  width: 25em;
   border: none;
-  font-family: "Montserrat", sans-serif;
-  padding: 10px;
-  color: #87898b;
-  height: 133px;
-  width: 239px;
+  border-radius: 0.5em;
 }
 
 /* Agenda */
@@ -390,7 +324,7 @@ table {
 
 #calendar {
   margin-left: 2%;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
   margin-top: 30px;
   width: 60%;
   display: grid;
@@ -536,9 +470,8 @@ tbody {
   }
 }
 
-dialog::backdrop {
-  background: var(--blauw);
-  backdrop-filter: blur(5px);
+footer {
+  padding: 1em;
 }
 
 /* Mediaquery kleiner scherm */
