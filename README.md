@@ -7,22 +7,22 @@ Ik heb aan de volgende user story gewerkt:
 
 ## Inhoudsopgave
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Checklist](#Checklist)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+  * 📝 [Beschrijving](#beschrijving)
+  * 👓 [Kenmerken](#kenmerken)
+  * ☑️ [Checklist](#Checklist)
+  * 🚀 [Installatie](#installatie)
+  * 👩🏽‍💻 [Gebruik](#gebruik)
+  * 📥 [Bronnen](#bronnen)
+  * 💯 [Licentie](#licentie)
 
-## Beschrijving
+## 📝 Beschrijving
 Op deze pagina kun je filteren op het allergeen die jou kind heeft. Hiervoor is het schema te vinden in de agenda. Hierin kun je dus vinden wanneer jij je mini een supplement voor de allergie moet geven.
 
 <img width="1425" alt="Scherm­afbeelding 2023-03-16 om 22 22 08" src="https://user-images.githubusercontent.com/112861144/225756267-a73b558b-86a4-48fe-8e76-ab631c11601d.png">
 
 🌐 [Link](#https://rich-plum-camel-gear.cyclic.app/) naar mijn live pagina! 
 
-## Kenmerken
+## 👓 Kenmerken
 Bij deze opdracht heb gewerkt met:
 
 * Node.js (Node wordt veel gebruikt voor programmeren op de server, waardoor ontwikkelaars JavaScript kunnen gebruiken voor client-side en server-side code zonder dat ze een extra taal hoeven te leren)
@@ -32,7 +32,7 @@ Bij deze opdracht heb gewerkt met:
 * CSS
 * Container queries
 
-## Checklist
+## ☑️ Checklist
 ✔️ Definitions of done:
 * Filtersysteem met API
 * Basis opnieuw opzetten
@@ -51,7 +51,7 @@ Bij deze opdracht heb gewerkt met:
 * Favicon toevoegen
 * Maand door kunnen klikken
 
-## Installatie
+## 🚀 Installatie
 * Node installatie - Via Nodejs.org heb ik eerst Node js gedownload.
 * NPM installatie
 
@@ -62,13 +62,13 @@ Bij deze opdracht heb gewerkt met:
 5. Daarna kun je door middel van npm start een localhost krijgen met een link waar je de live site kunt bekijken.
 6. Het live zetten van je project kan met behulp van cyclic.
 
-## Gebruik
+## 👩🏽‍💻 Gebruik
 Je kunt de website gebruiken om het stappenplan van je mini te bekijken voor het geven van supplementen.
 
-## Bronnen
+## 📥 Bronnen
 * https://api.vinimini.fdnd.nl/api/v1/
 * Groepsgenoten
 
-## Licentie
-
+## 💯 Licentie
+GNU GPL V3
 This project is licensed under the terms of the [MIT license](./LICENSE).
