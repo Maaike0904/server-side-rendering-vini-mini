@@ -10,8 +10,8 @@
   <button class="dropbtn">Kies het allergeen<span><ion-icon class="arrow-1" name="chevron-down-outline"></ion-icon></span></button>
   <div class="dropdown-content">
 
-  <% producten.forEach(product => { %>
-      <h3><%= product.categorie.titel %></h3>
+  <% categories.forEach(category => { %>
+      <a href="/<%= category.titel %>"><%= category.titel %></a>
 <% }); %>
 
   </div>
@@ -31,13 +31,7 @@
 <!-- CHECKBOXEN -->
   <div>
     <input type="checkbox" id="pindahapje" name="check" value="pindahapje" label='pindapje'/>
-    <label for="check">
-
-  <% producten.forEach(product => { %>
-        <%= product.html %>
-<% }); %>
-
-    </label>
+    <label for="check">Stap-1 pindahapje</label>
   </div>
 
   <div>
@@ -109,12 +103,7 @@
         <td class="day other-month">
           <div class="date">28</div>
           <div class="event">
-            <div class="event-desc">
-
-<% producten.forEach(product => { %>
-    <%= product.html %>
-<% }); %>
-
+            <div class="event-desc">Stap-1 pindahapje
             </div>
             <div class="event-time">8:00</div>
           </div>
