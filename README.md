@@ -20,7 +20,7 @@ Op deze pagina kun je filteren op het allergeen die jou kind heeft. Hiervoor is 
 
 <img width="1425" alt="Scherm­afbeelding 2023-03-16 om 22 22 08" src="https://user-images.githubusercontent.com/112861144/225756267-a73b558b-86a4-48fe-8e76-ab631c11601d.png">
 
-🌐 [Link](#https://rich-plum-camel-gear.cyclic.app/) naar mijn live pagina! 
+🌐 [Link](https://rich-plum-camel-gear.cyclic.app/) naar mijn live pagina! 
 
 ## 👓 Kenmerken
 Bij deze opdracht heb gewerkt met:
