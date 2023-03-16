@@ -2,6 +2,8 @@
 
 # Vini Mini agenda
 
+Ik heb aan de volgende user story gewerkt:
+#12 Als ouder wil ik in mijn agenda het stappenplan kunnen bekijken, zodat ik weet op welke dag ik een supplement voor een allergie moet geven.
 
 ## Inhoudsopgave
 
@@ -15,7 +17,7 @@
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+🌐 [Link] naar mijn live pagina! (#https://rich-plum-camel-gear.cyclic.app/)
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
