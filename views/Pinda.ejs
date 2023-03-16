@@ -1,7 +1,13 @@
 <%- include('./partials/head.ejs') %>
 
+<% categories.forEach(catagorie => { %>
+ <article>
+  <h2><%= categories.title %></h2>
+ </article>
+<% }) %>
+
 <!-- Titel -->
-  <h1>Planning van Sam</h1>
+  <h1>Planning van Sam - Pinda</h1>
 <!-- Titel  end -->
 
     <h2><ion-icon class="arrow-left" name="caret-back-outline"></ion-icon> Maart <ion-icon class="arrow-right" name="caret-forward-outline"></ion-icon></h2>
@@ -9,11 +15,12 @@
   <div class="dropdown">
   <button class="dropbtn">Kies het allergeen<span><ion-icon class="arrow-1" name="chevron-down-outline"></ion-icon></span></button>
   <div class="dropdown-content">
+    <% categories.forEach(category => { %>
 
-  <% producten.forEach(product => { %>
-      <h3><%= product.categorie.titel %></h3>
-<% }); %>
-
+        <a class="article-a" href="/<%= category.titel %>">
+                <p><%= category.titel %></p>
+        </a>
+    <% }); %>
   </div>
   </div>
 <!-- Filteren einde -->
@@ -31,13 +38,7 @@
 <!-- CHECKBOXEN -->
   <div>
     <input type="checkbox" id="pindahapje" name="check" value="pindahapje" label='pindapje'/>
-    <label for="check">
-
-  <% producten.forEach(product => { %>
-        <%= product.html %>
-<% }); %>
-
-    </label>
+    <label for="check">Eerste pindahapje geven</label>
   </div>
 
   <div>
@@ -112,7 +113,7 @@
             <div class="event-desc">
 
 <% producten.forEach(product => { %>
-    <%= product.html %>
+    <%= product.titel %>
 <% }); %>
 
             </div>

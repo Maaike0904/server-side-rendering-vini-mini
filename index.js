@@ -1,5 +1,8 @@
+console.log("cooll");
+
 import express from "express";
 
+// basis url voor de api
 const url = "https://api.vinimini.fdnd.nl/api/v1";
 
 // Maak een nieuwe express app
@@ -11,6 +14,8 @@ app.set("views", "./views");
 app.use(express.static("public"));
 
 // Maak een route voor de index
+// dit plak je aan de basis url van de api, /categories
+// { categories: data.categories } toen het niet werkte, werkt nu wel met enkel data
 app.get("/", (request, response) => {
   let categoriesUrl = url + "/categories";
 
@@ -20,11 +25,11 @@ app.get("/", (request, response) => {
 });
 
 // dit plak je aan de basis url van de api, /producten
-app.get("/Ei", async (request, response) => {
+app.get("/", async (request, response) => {
   let productenUrl = url + "/producten";
 
-  await fetchJson(productenUrl).then((data) => {
-    response.render("Ei", data);
+  fetchJson(productenUrl).then((data) => {
+    response.render("index", data);
   });
 });
 
